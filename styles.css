@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 18px;
+    font-family: Lato, sans-serif;
+    background-color:#F8FAFC
+}
+
+.main {
+    width: 95vw;
+    margin: 10px auto;
+    height: auto;
+}
+
+.nav-head{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+#nav-bar {
+    width: 500px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 5px;
+    left: 750px;
+}
+
+nav > a {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#form h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 100px;
+}
+
+#form input {
+    display: block;
+    margin: 0 auto;
+}
+
+#form input:nth-of-type(2) {
+    margin-top: 20px;
+    background-color: #FFC145;
+    color: black;
+    font-size: 24px;
+    width: max-content;
+    padding: 5px 18px;
+    border: none;
+    text-decoration: double;
+}
+
+#form input:nth-of-type(1) {
+    color: black;
+    font-size: 18px;
+    width: 300px;
+    padding: 10px 18px;
+    border: 1.5px solid black;
+}
+
+
+.content {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#features {
+    margin-bottom: 75px;
+}
+
+.grid {
+    display: flex;
+    
+}
+
+.icon {
+    color: #F26B0F;
+    font-size: 64px;
+    margin-top: 24px;
+}
+
+.desc {
+    margin-left: 100px;
+}
+
+
+.desc h2 {
+    font-size: 30px;
+}
+
+
+.desc p {
+    font-size: 24px;
+}
+
+#video {
+    width: 750px;
+    height: 450px;
+}
+
+#how-it-works {
+    margin-bottom: 75px;
+}
+
+#pricing {
+    display: flex;
+    width: max-width;
+    justify-content: space-between;
+}
+
+.price {
+    margin: 0 20px;
+    border: 2px solid black;
+    padding: 10px 30px;
+    width: 275px;
+    text-align: center;
+}
+
+.price p {
+    font-size: 22px;
+}
+
+.phead {
+   text-decoration:solid;
+}
+
+.price h3 {
+    background-color: #BBBBBB;
+    padding: 20px 5px
+}
+
+.button {
+    margin: 20px 0px;
+    background-color: #FFC145;
+    color: black;
+    font-size: 24px;
+    width: max-content;
+    padding: 5px 18px;
+    border: none;
+    text-decoration: double;    
+}
+
+.button:hover {
+    background-color:#F26B0F;
+}
+
+footer {
+    margin-top: 40px;
+}
+   
+.footer {
+    padding: 20px 20px;
+    background-color: #BBBBBB;
+    width: 50vw;
+    display: flex;
+    margin: 0 auto;
+    justify-content: end;
+}
+
+#secfoot {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 320px) and  (max-width: 450px) {
+    .footer {
+        width: 100vw;
+    }
+}  
